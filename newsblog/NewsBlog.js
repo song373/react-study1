@@ -25,6 +25,9 @@ function NewsBlog(){
     let [selectedTitle, setSelectedTitle] = useState('');
     let [selectedLikeCount, setselectedLikecount] = useState(0);
 
+    //input 값을 저장할 변수
+    let [inputText, setInputText] = useState('');
+
     return (
         <div>
             <div className='black-nav'>
@@ -32,14 +35,24 @@ function NewsBlog(){
                 <p style={ {color:"orange", fontSize:'20px'} }>{title}</p>
             </div>
 
+            <div>
+                <input type="text" onChange={(event)=>{
+                    console.log(event);
+                }}></input>
+                <button onClick={()=>{
+
+                }}>등록</button>
+            </div>
+
         {
-        news.map((item, index)=>{
+        news.map((item, index)=>{ // 0 1 2
             //return
             return(
             <div className='post-list'>
                 <h4 onClick={()=>{
                         setShowModal(!showModal);
                     setSelectedTitle(item);
+                    setselectedLikecount(likeCountArr[index] );
                 }}>{item} <span onClick={(event)=>{
                     
                     event.stopPropagation();
@@ -58,7 +71,11 @@ function NewsBlog(){
 
             {
                 //showModal == true ? <Modal/> : null
-                showModal && <Modal title={selectedTitle} likeCount={selectedLikeCount}/>
+                //props 전달
+                // 변수, 배열, 객체, 함수 요소(컴포넌트)
+                showModal && <Modal title={selectedTitle} likeCount={selectedLikeCount}
+                            news={news} setNews={setNews}
+                            bgcolor ='lightblue'/>
             }
             
         </div>
