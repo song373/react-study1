@@ -1,7 +1,24 @@
-import logo from './logo.svg';
+
 import './App.css';
+import FoodMarket from './foodmarket/foodmarket/FoodMarket';
+
 
 function App() {
+  
+  //return <Basic01/>;  //JSX 기본
+  //return <State01/>;  //useState 사용법
+  //return <Practice01/>;
+  // return <Export01/>;
+  //return <State02/>;
+  //return <Practice02/>;
+  //return <Props01/>;
+  //return <Props02/>;
+  //return <Practice03/>;
+  //return <NewsBlog/>;
+  //return <Practice04/>;
+  return <FoodMarket/>;
+
+  /*
   return (
     <div className="App">
       <header className="App-header">
@@ -20,6 +37,7 @@ function App() {
       </header>
     </div>
   );
+  */
 }
 
 export default App;
