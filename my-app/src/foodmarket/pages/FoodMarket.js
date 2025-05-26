@@ -36,10 +36,8 @@ function FoodMarket() {
                     
                     *권장 방식
                     src={process.env.PUBLIC_URL +  '/images/food2.jpg'}
-
                     *기본 서비스 경로 루트 경로 (/)
                     서버주소:포트번호/ 
-
                     package.json > hompage 필드 설정 
                     "homepage":"/foodmarket"
                         

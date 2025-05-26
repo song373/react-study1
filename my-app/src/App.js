@@ -1,6 +1,6 @@
 
 import './App.css';
-import FoodMarket from './foodmarket/foodmarket/FoodMarket';
+import FoodMarket from './foodmarket/pages/FoodMarket';
 
 
 function App() {
