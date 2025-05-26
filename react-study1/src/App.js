@@ -8,7 +8,7 @@ import Export01 from './study/Export01';
 import Practice02 from './practice/Practice02';
 import Props01 from './study/Props01';
 import Props02 from './study/Props02';
-import Practice03 from "../practice/practice03/Practice03";
+import Practice03 from './practice/practice03/Practice03';
 import NewsBlog from './newsblog/NewsBlog';
 import Practice04 from './practice/practice04/Practice04';
 import FoodMarket from './foodmarket/pages/FoodMarket';
