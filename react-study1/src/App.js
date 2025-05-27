@@ -29,8 +29,9 @@ function App() {
   //return <Practice03/>;
   //return <NewsBlog/>;
   //return <Practice04/>;
-  return <Practice06/>;
+  // return <FoodMarket/>;
   // return <Practice05/>;
+  return <FoodMarket />;
 
   /*
   return (
