@@ -14,7 +14,7 @@ import Practice04 from './practice/practice04/Practice04';
 import FoodMarket from './foodmarket/pages/FoodMarket';
 import Practice05 from './practice/practice05/Practice05';
 import Practice06 from './practice/practice06/Practice06';
-
+import AppRS from './react_spring/AppRS';
 
 function App() {
   
@@ -31,7 +31,8 @@ function App() {
   //return <Practice04/>;
   // return <FoodMarket/>;
   // return <Practice05/>;
-  return <FoodMarket />;
+  // return <Practice06 />;
+  return <AppRS/>;
 
   /*
   return (
